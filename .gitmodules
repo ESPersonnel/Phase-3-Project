@@ -1,0 +1,6 @@
+[submodule "Fantasy-Book-Store-Frontend"]
+	path = Fantasy-Book-Store-Frontend
+	url = git@github.com:ESPersonnel/Fantasy-Book-Store-Frontend.git
+[submodule "Fantasy-Book-Store-Backend"]
+	path = Fantasy-Book-Store-Backend
+	url = git@github.com:ESPersonnel/Fantasy-Book-Store-Backend.git
