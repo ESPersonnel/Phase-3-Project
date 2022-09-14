@@ -1,4 +1,4 @@
-# Phase III Project: Fantasy Novel Store
+# Phase III Project: Fantasy Novel App
 
 ## Overview
 
