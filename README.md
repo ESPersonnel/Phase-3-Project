@@ -91,10 +91,21 @@ Any other informational data will be added to this section as the project progre
 
 The frontend is coming along but is not complete. The application can currently do the following:
 
-- Displays all the books in the Backend database.
-- Displays all the authors in the Backend database.
-- Displays all the reviews in the Backend database.
+- Displays all the book details from the Backend database.
+- Displays all the author details from the Backend database.
+- Displays all the review details from the Backend database.
 
 Functionality to be added:
 
 - Functionality to add, edit and delete books, authors and reviews.
+- Styling to make the application look better.
+
+## Features added and rolled back
+
+### Frontend
+
+- Added Firebase authentication but rolled it back because it was not working properly and wasted my time.
+- Added a search bar but it broke my application so I rolled it back.
+
+> Note: These features will be added back in the future. This might be a good project to present as a portfolio piece so I want to make it look good.
+
