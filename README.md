@@ -5,6 +5,11 @@
 This project is a web application that allows users to browse fantasy novels and sort them how they want. The user can also add novels to their cart and checkout.
 The application is built using the sinatra framework and uses a rakefile to manage the database.
 
+> Note:
+> At the time of submission the project is not yet done but I am constantly working on it (the fundamentals are done, it just needs to work well).
+> Comments from the TM are welcome.
+
+
 ## Technologies Used
 
 ### Backend
@@ -50,7 +55,7 @@ To install this application, clone the backend and frontend repositories.
     One to Many  1 ----< ∞
     Many to Many ∞ ----< ∞
 
-    
+
     Readers --------------< Reviews >----------- Books >-------------- Author
     :reader_name           :reader_id           :author_id            :series_title
     :email                 :book_id             :title                :author_name
@@ -58,3 +63,38 @@ To install this application, clone the backend and frontend repositories.
     :phone_no              :content             :publication_date
  
 
+### Readers
+has_many :reviews
+has_many :books, through: :reviews
+
+### Reviews
+belongs_to :reader
+belongs_to :book
+
+### Books
+has_many :reviews
+has_many :readers, through: :reviews
+belongs_to :author
+
+### Authors
+has_many :books
+
+## Current Progress
+
+### Backend
+
+The backend is currently complete. It has all the required routes and controllers. The database is seeded with data.
+
+Any other informational data will be added to this section as the project progresses.
+
+### Frontend
+
+The frontend is coming along but is not complete. The application can currently do the following:
+
+- Displays all the books in the Backend database.
+- Displays all the authors in the Backend database.
+- Displays all the reviews in the Backend database.
+
+Functionality to be added:
+
+- Functionality to add, edit and delete books, authors and reviews.
