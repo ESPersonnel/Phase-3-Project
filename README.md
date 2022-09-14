@@ -46,3 +46,15 @@ To install this application, clone the backend and frontend repositories.
 
 ## ERD Relationship Diagram
 
+    Key:
+    One to Many  1 ----< ∞
+    Many to Many ∞ ----< ∞
+
+    
+    Readers --------------< Reviews >----------- Books >-------------- Author
+    :reader_name           :reader_id           :author_id            :series_title
+    :email                 :book_id             :title                :author_name
+    :birthday              :title               :genre                :series
+    :phone_no              :content             :publication_date
+ 
+
