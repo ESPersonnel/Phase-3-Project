@@ -25,7 +25,7 @@ To install this application, clone the backend and frontend repositories.
 
 ### Backend
 
-1. Clone the backend repository from [here](
+1. Clone the backend repository from [here](https://github.com/ESPersonnel/Fantasy-Book-Store-Backend)
 
 2. Run `bundle install` to install the required gems.
 
@@ -37,9 +37,12 @@ To install this application, clone the backend and frontend repositories.
 
 ### Frontend
 
-1. Clone the frontend repository from [here](
+1. Clone the frontend repository from [here](https://github.com/ESPersonnel/Fantasy-Book-Store-Frontend)
 
 2. Run `npm install` to install the required packages.
 
 3. Run `npm start`.
+
+
+## ERD Relationship Diagram
 
