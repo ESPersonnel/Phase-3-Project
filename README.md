@@ -77,20 +77,20 @@ To install this application, clone the backend and frontend repositories.
 
 ## Relationships
 ### Readers
-has_many :reviews
-has_many :books, through: :reviews
+    has_many :reviews
+    has_many :books, through: :reviews
 
 ### Reviews
-belongs_to :reader
-belongs_to :book
+    belongs_to :reader
+    belongs_to :book
 
 ### Books
-has_many :reviews
-has_many :readers, through: :reviews
-belongs_to :author
+    has_many :reviews
+    has_many :readers, through: :reviews
+    belongs_to :author
 
 ### Authors
-has_many :books
+    has_many :books
 
 ## Current Progress
 
