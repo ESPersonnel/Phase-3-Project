@@ -75,6 +75,7 @@ To install this application, clone the backend and frontend repositories.
     :phone_no              :content             :publication_date
  
 
+## Relationships
 ### Readers
 has_many :reviews
 has_many :books, through: :reviews
@@ -121,3 +122,15 @@ Functionality to be added:
 
 > Note: These features will be added back in the future. This might be a good project to present as a portfolio piece so I want to make it look good.
 
+## Known Bugs
+
+Bug 1
+
+
+
+
+## Licence
+
+The MIT Licence (MIT)
+
+- [Licence](./LICENCE)
