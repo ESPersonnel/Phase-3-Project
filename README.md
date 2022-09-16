@@ -1,5 +1,7 @@
 # Phase III Project: Fantasy Novel App
 
+    Author: Wycliffe Ndiba
+
 ## Overview
 
 This project is a web application that allows users to browse fantasy novels and sort them how they want. The user can also add novels to their cart and checkout.
@@ -23,6 +25,16 @@ The application is built using the sinatra framework and uses a rakefile to mana
     React
     Javascript
     CSS
+
+## Live Link
+
+### Frontend
+
+[Book Review App](https://fantasy-book-store-frontend.vercel.app/)
+
+### Backend
+
+[Ruby (Heroku) Data](https://book-review-app-espersonnel.herokuapp.com/)
 
 ## Installation
 
