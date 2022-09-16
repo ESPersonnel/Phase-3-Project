@@ -34,7 +34,7 @@ The application is built using the sinatra framework and uses a rakefile to mana
 
 ### Backend
 
-[Ruby (Heroku) Data](https://book-review-app-espersonnel.herokuapp.com/)
+[Ruby (Heroku) API](https://book-review-app-espersonnel.herokuapp.com/)
 
 ## Installation
 
