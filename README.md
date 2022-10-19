@@ -7,10 +7,6 @@
 This project is a web application that allows users to browse fantasy novels and sort them how they want. The user can also add novels to their cart and checkout.
 The application is built using the sinatra framework and uses a rakefile to manage the database.
 
-> Note:
-> At the time of submission the project is not yet done but I am constantly working on it (the fundamentals are done, it just needs to work well).
-> Comments from the TM are welcome.
-
 
 ## Technologies Used
 
