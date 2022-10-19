@@ -124,11 +124,6 @@ Functionality to be added:
 
 ## Known Bugs
 
-Bug 1
-
-    The application cannot delete files from the backend. The React code has access to the backend and Ruby recognizes it but something is stopping the full transactions.
-
-<img src="./images/bug1.png">
 
 
 ## Licence
