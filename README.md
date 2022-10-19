@@ -24,16 +24,7 @@ The application is built using the sinatra framework and uses a rakefile to mana
 
 ## Live Link
 
-### Frontend
-
 [Book Review App](https://fantasy-book-store-frontend.vercel.app/)
-
-### Backend
-
-[Books](https://book-review-app-espersonnel.herokuapp.com/books) <br />
-[Authors](https://book-review-app-espersonnel.herokuapp.com/authors) <br />
-[Reviews](https://book-review-app-espersonnel.herokuapp.com/reviews)
-
 
 
 ## Installation
